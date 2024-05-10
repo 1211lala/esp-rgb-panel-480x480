@@ -1,0 +1,37 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32s3.cfg"
+  ],
+  "files.associations": {
+    "esp_log.h": "c",
+    "esp_err.h": "c",
+    "st7701s.h": "c",
+    "task.h": "c",
+    "lv_demos.h": "c",
+    "gpio.h": "c",
+    "esp_check.h": "c",
+    "gt911.h": "c",
+    "p_i2c_gt911.h": "c",
+    "common.h": "c",
+    "esp_lcd_panel_io.h": "c",
+    "spi_master.h": "c",
+    "semphr.h": "c",
+    "esp_lcd_panel_ops.h": "c",
+    "lvgl.h": "c",
+    "i2c.h": "c",
+    "esp_timer.h": "c",
+    "esp_lcd_panel_rgb.h": "c",
+    "lvgl_interface.h": "c",
+    "string.h": "c",
+    "esp_wifi.h": "c",
+    "nvs_flash.h": "c",
+    "inet.h": "c",
+    "p_wifi_sta.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM8",
+  "idf.port": "/dev/ttyUSB0"
+}
